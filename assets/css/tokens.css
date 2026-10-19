@@ -1,0 +1,51 @@
+:root {
+  /* Colors (kerimovdesigns.com) */
+  --color-bg: #181c14;
+  --color-fg: #ecdfcc;
+  --color-secondary: #d6bc9a;
+  --color-ink: #000000;
+  --color-offwhite: #f6f3ee;
+  --color-muted: rgba(246, 243, 238, 0.58);
+  --color-dim: #5f5547;
+  --color-line: rgba(236, 223, 204, 0.16);
+  --color-line-ink: rgba(0, 0, 0, 0.16);
+
+  /* Typography */
+  --font-sans: 'Satoshi', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fs-display: clamp(3rem, 13.4vw, 15rem);
+  --fs-title: clamp(2.6rem, 7.2vw, 7.5rem);
+  --fs-h1: clamp(1.9rem, 3.6vw, 3.2rem);
+  --fs-h2: 1.76rem;
+  --fs-body: 1.24rem;
+  --fs-body-sm: 1rem;
+  --fs-micro: 0.875rem;
+  --fs-label: 0.72rem;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12.8px;
+  --space-4: 32px;
+  --space-5: 58px;
+  --space-6: 90px;
+  --space-7: 112px;
+  --gutter: clamp(16px, 2.2vw, 32px);
+
+  /* Motion (kerimov motion lab) */
+  --ease: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-std: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-instant: 15ms;
+  --dur-xs: 90ms;
+  --dur-fast: 150ms;
+  --dur-md: 300ms;
+  --dur-lg: 500ms;
+  --dur-slow: 540ms;
+  --stagger: 75ms;
+
+  /* Layers */
+  --z-header: 70;
+  --z-preview: 50;
+  --z-menu: 60;
+  --z-curtain: 90;
+}
